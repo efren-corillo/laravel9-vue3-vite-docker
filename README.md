@@ -1,6 +1,6 @@
-# Dockerized Laravel 8 & Vue 3 App with TypeScript
+# Dockerized Laravel 9 & Vue 3 App with TypeScript
 
-Docker development implementation for Laravel 8.\* with:
+Docker development implementation for Laravel 9.\* with:
 
 - Nginx
 - MySql
@@ -11,12 +11,12 @@ Docker development implementation for Laravel 8.\* with:
 
 ## Installation
 
-- Clone this repository `git clone https://github.com/rifatcse09/laravel_vue_vite_docker_boilerplate`
+- Clone this repository `git clone https://github.com/efren-corillo/laravel9-vue3-vite-docker`
 - Make sure you have docker installed on your local machine, you do not need to have php / mysql / redis / node installed on your machine
 - Copy `.env` file: `cp .env.example .env`
 - Set the environment variables in `.env` file
 - Run command: `docker-compose up --build -d`
--  Run the container in bash mode: `docker exec -it Laravel_php /bin/sh`
+-  Run the container in bash mode: `docker exec -it ppro_app /bin/sh`
 - Inside this container now you can run all the commands as if if you are on local environment:
 - Install composer dependencies: `composer install`
 - Generate key: `php artisan key:generate`
@@ -30,10 +30,5 @@ Docker development implementation for Laravel 8.\* with:
 - Install composer dependencies: `docker-compose run php composer install`
 - Install javascript dependencies: `docker-compose run npm install`
 
-
-## Contributing
-
-You can contribute to this project by following this documentation.
-
-#Refferecn
-- https://github.com/nimatrazmjo/laravel-vuejs-docker/blob/main/Dockerfile.prod
+#Refference
+- https://github.com/efren-corillo/laravel9-vue3-vite-docker
